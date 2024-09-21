@@ -340,10 +340,11 @@
    only screen and (min-resolution: 2dppx) {
    .probootstrap-navbar .navbar-brand {
      position: relative;
-     width: 117px;
-     height: 40px;
-     background: url(../img/logo@2x.png) left 100% no-repeat;
-     background-size: cover;
+     width: 200px;
+     /* height: 40px; */
+     background: url(../img/logo.png) left 100% no-repeat;
+     filter: invert(100%);
+     background-size: contain;
    }
  }
  .probootstrap-navbar .navbar-nav > li > a {
