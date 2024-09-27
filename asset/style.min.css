@@ -328,11 +328,15 @@ a:hover {
   .probootstrap-navbar .navbar-brand {
     top: 5px !important;
     background-position: left 100%;
+    background-size: contain;
+  filter: invert(100%);
   }
 }
 @media screen and (max-width: 480px) {
   .probootstrap-navbar .navbar-brand {
     top: 6px !important;
+    background-size: contain;
+  filter: invert(100%);
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
